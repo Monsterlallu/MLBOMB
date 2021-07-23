@@ -39,7 +39,7 @@ banner() {
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
     echo -e "\e[1;32m           Telegram: https://t.me/nitrohacker \e[0m"
-    echo -e "\e[4;32m   YouTube: https://www.youtube.com/channel/UCfzFTlm5vHNSrzZFm-At-Yw \e[0m"
+    echo -e "\e[4;32m   YouTube: https://youtube.com/channel/UCn2lJjIrNXouId9m2u_vZrw"
     echo " "
     echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
     echo " "
