@@ -90,7 +90,7 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-git clone https://github.com/Hackertrackersj/Tbomb
+git clone https://github.com/Monsterlallu/MLBOMB.git
 cd TBomb
 chmod +x TBomb.sh
 
@@ -111,7 +111,7 @@ sudo bash TBomb.sh
 ## CONTRIBUTORS:
 
 - **SpeedX**<br>
-[-] Mail At:https://github.com/Monsterlallu/Tbomb.git
+[-] Mail At:https://github.com/Monsterlallu/MLBOMB.git
 
 
 
@@ -123,7 +123,7 @@ sudo bash TBomb.sh
 Feel Free To Open An Issue...
 
 ```
-                 Mail:https://github.com/Monsterlallu/Tbomb.git
+                 Mail:https://github.com/Monsterlallu/MLBOMB.git
        YouTube Channel:https://www.youtube.com/channel/UCqqNyOaX6Dxwg5e6Bf6reSw
 ```
 
