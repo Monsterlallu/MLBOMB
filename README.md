@@ -70,7 +70,7 @@ Commands below provide instructions for Debian-based systems.
 To use the bomber type the following commands in Linux terminal:
 ```
 sudo apt install git
-git clone https://github.com/Hackertrackersj/Tbomb
+git clone https://github.com/Monsterlallu/Tbomb.git
 cd TBomb
 chmod +x TBomb.sh
 sudo bash TBomb.sh
@@ -111,7 +111,7 @@ sudo bash TBomb.sh
 ## CONTRIBUTORS:
 
 - **SpeedX**<br>
-[-] Mail At:https://github.com/Hackertrackersj/Tbomb
+[-] Mail At:https://github.com/Monsterlallu/Tbomb.git
 
 
 
@@ -123,7 +123,7 @@ sudo bash TBomb.sh
 Feel Free To Open An Issue...
 
 ```
-                 Mail:https://github.com/Hackertrackersj/Tbomb
+                 Mail:https://github.com/Monsterlallu/Tbomb.git
        YouTube Channel:https://www.youtube.com/channel/UCqqNyOaX6Dxwg5e6Bf6reSw
 ```
 
