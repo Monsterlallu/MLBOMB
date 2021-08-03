@@ -56,7 +56,7 @@ cd MLBOMB
 chmod +x TBomb.sh
 ./TBomb.sh
 ```
-## youtube channel <a href="https://www.youtube.com/channel/UCfzFTlm5vHNSrzZFm-At-Yw"> click here</a>
+## youtube channel <a href="https://youtube.com/channel/UCn2lJjIrNXouId9m2u_vZrw"> click here</a>
 
 ### > For Linux:
 
@@ -124,7 +124,7 @@ Feel Free To Open An Issue...
 
 ```
                  Mail:https://github.com/Monsterlallu/MLBOMB.git
-       YouTube Channel:https://www.youtube.com/channel/UCqqNyOaX6Dxwg5e6Bf6reSw
+       YouTube Channel:https://youtube.com/channel/UCn2lJjIrNXouId9m2u_vZrw
 ```
 
 <a href="https:
