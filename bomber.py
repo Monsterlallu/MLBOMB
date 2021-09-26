@@ -104,10 +104,10 @@ def format_phone(num):
 def do_zip_update():
     success = False
     if DEBUG_MODE:
-        zip_url = "https://github.com/Hackertrackersj/Tbomb/archive/refs/heads/master.zip"
+        zip_url = "https://github.com/Monsterlallu/MLBOMB/archive/refs/heads/master.zip"
         dir_name = "TBomb-dev"
     else:
-        zip_url = "https://github.com/Hackertrackersj/Tbomb/archive/refs/heads/master.zip"
+        zip_url = "https://github.com/Monsterlallu/MLBOMB/archive/refs/heads/master.zip"
         dir_name = "TBomb-master"
     print(ALL_COLORS[0]+"Downloading ZIP ... "+RESET_ALL)
     response = requests.get(zip_url)
