@@ -119,7 +119,7 @@ do
         echo -e "\e[1;32m   Subscribe Nitro Hacker Youtube Channel"
         sleep 5
         cd $HOME
-        cd Tbomb
+        cd MLBOMB
         python3 bomber.py
        
         exit
@@ -128,7 +128,7 @@ do
         echo -e "\e[1;32m    Subscribe Nitro Hacker Youtube Channel"
         sleep 5
         cd $HOME
-        cd Tbomb
+        cd MLBOMB
         python3 bomber.py
         
         exit
@@ -154,10 +154,10 @@ do
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
-        rm -rf Tbomb
-        git clone https://github.com/Hackertrackersj/Tbomb
-        cd Tbomb
-        bash TBomb.sh
+        rm -rf MLBOMB
+        git clone https://github.com/Monsterlallu/MLBOMB.git
+        cd MLBOMB
+        bash MLBOMB.sh
        
         exit
     elif [ $ch -eq 6 ];then
