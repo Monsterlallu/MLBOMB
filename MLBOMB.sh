@@ -29,7 +29,7 @@ banner() {
     if ! [ -x "$(command -v figlet)" ]; then
         echo 'Introducing TBomb'
     else
-        figlet TBomb
+        figlet MLBOMB
     fi
     if ! [ -x "$(command -v toilet)" ]; then
         echo -e "\e[4;34m This Bomber Was Modify By \e[1;32mNitro Hacker \e[0m"
@@ -41,7 +41,7 @@ banner() {
     echo -e "\e[1;32m           Telegram: https://t.me/nitrohacker \e[0m"
     echo -e "\e[4;32m   YouTube: https://youtube.com/channel/UCn2lJjIrNXouId9m2u_vZrw"
     echo " "
-    echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
+    echo "NOTE: Kindly move to the PIP version Of MLBOMB for more stability."
     echo " "
 }
 
@@ -149,8 +149,8 @@ do
         echo -e "\e[1;32m        Subscribe Nitro Hacker Youtube Channel"
         sleep 5
         cd $HOME
-        cd Tbomb
-        bash TBomb.sh
+        cd MLBOMB
+        bash MLBOMB.sh
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
