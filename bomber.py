@@ -105,10 +105,10 @@ def do_zip_update():
     success = False
     if DEBUG_MODE:
         zip_url = "https://github.com/Monsterlallu/MLBOMB/archive/refs/heads/master.zip"
-        dir_name = "TBomb-dev"
+        dir_name = "MLBOMB-dev"
     else:
         zip_url = "https://github.com/Monsterlallu/MLBOMB/archive/refs/heads/master.zip"
-        dir_name = "TBomb-master"
+        dir_name = "MLBOMB-master"
     print(ALL_COLORS[0]+"Downloading ZIP ... "+RESET_ALL)
     response = requests.get(zip_url)
     if response.status_code == 200:
@@ -169,7 +169,7 @@ def check_for_updates():
         return
     mesgdcrt.SectionMessage("Checking for updates")
     fver = requests.get(
-        "https://github.com/Hackertrackersj/Tbomb/blob/master/.version"
+        "https://github.com/Monsterlallu/MLBOMB/blob/master/.version"
     ).text.strip()
     if fver != __VERSION__:
         mesgdcrt.WarningMessage("An update is available")
@@ -183,9 +183,9 @@ def check_for_updates():
 def notifyen():
     try:
         if DEBUG_MODE:
-            url = "https://github.com/Hackertrackersj/Tbomb/blob/master/.notify"
+            url = "https://github.com/Monsterlallu/MLBOMB/blob/master/.notify"
         else:
-            url = "https://github.com/Hackertrackersj/Tbomb/blob/master/.notify"
+            url = "https://github.com/Monsterlallu/MLBOMB/blob/master/.notify"
         noti = requests.get(url).text.upper()
         if len(noti) > 10:
             mesgdcrt.SectionMessage("NOTIFICATION: " + noti)
@@ -238,7 +238,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("TBomb was created by SpeedX")
+    mesgdcrt.SuccessMessage("MLBOMB was created by MONSTER")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -369,7 +369,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan', 'Nitro Hacker']
+__CONTRIBUTORS__ = ['MLBOMB', 't0xic0der', 'scpketer', 'Stefan', 'Nitro Hacker']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
